@@ -1,0 +1,34 @@
+/* My Funky Styles*/
+
+body {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+
+}
