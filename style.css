@@ -5,6 +5,9 @@ body {
     color: #f9faf8;
     display: flex;
     flex-direction: column;
+    font-family: "Roboto";
+    padding: 0px;
+    margin: 0px;
 }
 
 ul {
@@ -14,6 +17,8 @@ ul {
     display: flex;
     align-items: center;
     gap: 16px;
+    font-size:16px;
+    color: #E5E7EB;
 }
 
 a {
@@ -24,11 +29,170 @@ a {
 .hero {
     display: flex;
     flex-direction: column;
-    
+    margin-bottom: 40px;    
 }
 
 .header {
     display: flex;
     justify-content: space-around;
+    font-size: 24px;
+    margin-top: 18px;
+    align-items: center;
+}
 
+.hero-main-text {
+    font-size: 40px;
+    font-weight:bolder;
+}
+
+.hero-second-text {
+    font-size:16px;
+    color: #E5E7EB;
+}
+
+.Button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-family: "Roboto";
+    font-size: medium;
+    border-radius: 4px;
+    border: none;
+    align-self: flex-start;
+    padding: 5px 20px;
+    font-weight: 600;
+}
+
+.Button:hover{
+    background-color: #fff;
+    border: 1px solid #1E88E5;
+    color: #1E88E5;
+
+  }
+
+.hero-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 56px;
+    
+}
+
+.hero-text {
+    padding: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    width: 500px;
+}
+
+.hero-img {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img img {
+  height: 250px;
+  width: 700px;
+  border-radius: 4px;
+}
+
+.section-1 {
+    background-color: white;
+}
+
+.section-1 h2 {
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.carsoul-item img {
+    height: 180px;
+    width: 180px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.carsoul {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+}
+
+.carsoul-item{
+    padding: 10px;
+}
+
+.carsoul-item p{ 
+    width: 180px;
+}
+
+.section-2 {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-2 .quotee {
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+.section-2 .quote {
+    font-size: 30px;
+    font-weight: 100 ;
+    font-style: italic;
+    align-self: flex-end;
+}
+
+.section-3 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 90px 0px;
+}
+
+.section-3 .bk {
+    background-color: #3882F6;
+    width: 1000px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+}
+.section-3 .call-to-action-txt {
+    margin: 0px;
+}
+
+.section-3 .bk .Button {
+    align-self: center;
+    border: 2px solid white;
+}
+
+.section-3 .call-to-action-txt h2 {
+    margin-bottom: 0px ;
+    margin-right: 0px;
+}
+
+.section-3 .call-to-action-txt p {
+    margin-top: 4px ;
+    margin-right: 0px;
+    margin-bottom: 16px;
+}
+
+.footer {
+    text-align: center;
+    margin: 10px;
 }
